@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Negrito e Itálico em HTML</title>
+</head>
+<body>
+
+  <h1>Negrito e Itálico em HTML</h1>
+
+  <p>Este conteúdo foi feito como parte do meu aprendizado em HTML. Aqui explico a diferença entre <b>negrito</b> e <i>itálico</i> em HTML — e como usar com consciência.</p>
+
+  <h2>1. Introdução: Semântica vs. Apresentação</h2>
+  <ul>
+    <li><strong>HTML:</strong> estrutura e significado.</li>
+    <li><strong>CSS:</strong> aparência visual.</li>
+  </ul>
+
+  <h2>2. Negrito: <code>&lt;b&gt;</code> vs <code>&lt;strong&gt;</code></h2>
+
+  <h3>&lt;b&gt; — apenas estilo visual</h3>
+  <p>Usado quando o texto precisa apenas chamar atenção visual.</p>
+
+  <p>Apenas um <b>nome</b> para destaque visual.</p>
+  <p>Clique no botão <b>Salvar</b> para continuar.</p>
+
+  <h3>&lt;strong&gt; — importância semântica</h3>
+  <p>Usado para conteúdo com peso, urgência ou seriedade.</p>
+
+  <p>Este é um aviso muito <strong>importante</strong> para a sua segurança.</p>
+  <p>Lembre-se: <strong>nunca compartilhe sua senha</strong> com ninguém.</p>
+
+  <h2>3. Itálico: <code>&lt;i&gt;</code> vs <code>&lt;em&gt;</code></h2>
+
+  <h3>&lt;i&gt; — estilo visual</h3>
+  <p>Usado para termos técnicos, estrangeiros, pensamentos internos etc.</p>
+
+  <p>A palavra <i>status</i> vem do latim.</p>
+  <p>O livro favorito dela é <i>Cem Anos de Solidão</i>.</p>
+
+  <h3>&lt;em&gt; — ênfase semântica</h3>
+  <p>Usado para destacar algo que muda o sentido da frase.</p>
+
+  <p>Eu <em>amo</em> chocolate.</p>
+  <p>Eu amo <em>chocolate</em>.</p>
+
+  <h2>4. Dicas e Boas Práticas</h2>
+  <ul>
+    <li>Leitores de tela interpretam <code>&lt;strong&gt;</code> e <code>&lt;em&gt;</code> com entonação.</li>
+    <li>Para estilizar sem semântica, use CSS:</li>
+  </ul>
+
+  <p><span style="font-weight: bold;">Negrito via CSS</span></p>
+  <p><span style="font-style: italic;">Itálico via CSS</span></p>
+
+  <h2>Conclusão</h2>
+  <p>Usar <code>&lt;b&gt;</code> e <code>&lt;i&gt;</code> para estilo. Usar <code>&lt;strong&gt;</code> e <code>&lt;em&gt;</code> para significado real. Isso melhora a acessibilidade, SEO e clareza do código.</p>
+
+</body>
+</html>
