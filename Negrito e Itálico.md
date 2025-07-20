@@ -1,7 +1,9 @@
 
 # 📚 Anotações de Estudo: Negrito e Itálico em HTML
 
-> _Este material foi escrito por mim, Marco, como parte do meu aprendizado em HTML. Tentei manter um tom explicativo e direto ao ponto, com uma pitada de informalidade pra ficar mais leve de entender._ 😄
+📅 Criado em: **20 de julho de 2025**  
+📚 Matéria:**Programação Web (HTML5 e CSS3)**  
+✍️ Autor: **Marco**
 
 ## 1. Introdução: Semântica vs. Apresentação
 
